@@ -1,0 +1,154 @@
+:root {
+    --white: #F8F7F7;
+    --grey: #828894;
+    --light-grey: #acaeb8;
+    --lightest-grey: #4a4c4e;
+    --border: #646769;
+}
+
+* {
+    background-color: var(--white);
+    font-family: 'Gafata', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background: none;
+}
+
+#work {
+    color: var(--white);
+}
+
+#work-section {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: var(--grey);
+    padding-bottom: 2rem;
+}
+
+#work-samples {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.work-image {
+    background: none;
+    border: var(--border) 3px solid;
+}
+
+.work-image:hover {
+    background-color: var(--light-grey);
+    opacity: 0.4;
+}
+
+.large-image {
+    width: 1000px;
+    height: auto;
+}
+
+.small-image {
+    width: 480px;
+    height: auto;
+    margin: 1rem;
+}
+
+.work-flexbox,
+.work-text,
+.work-title,
+.repo-link,
+.all-tag {
+    background: none;
+    font-size: 24px;
+}
+
+.work-text a,
+.work-text a:visited {
+    background: none;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.work-text a:hover,
+.deploy-anchor:hover {
+    text-decoration: underline;
+    color: var(--lightest-grey);
+}
+
+#flex-one {
+    order: 1;
+    flex-basis: 100%;
+}
+
+#dinner-text,
+#weather-text,
+#note-text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    background-color: var(--light-grey);
+}
+
+#dinner-text {
+    width: 1000px;
+    order: 2;
+    flex-basis: 100%;
+}
+
+#weather-text,
+#note-text {
+    width: 480px;
+}
+
+
+#flex-two {
+    order: 3;
+}
+
+#flex-three {
+    order: 4;
+}
+
+#weather-text {
+    order: 5;
+}
+
+#note-text {
+    order: 6;
+}
+
+
+.small-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.large-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    h2
+    {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .large-image {
+        width: 40%
+    }
+
+    .small-image {
+        width: 80%;
+    }
+}
