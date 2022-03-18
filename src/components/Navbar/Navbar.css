@@ -1,0 +1,58 @@
+:root {
+    --white: #F8F7F7;
+    --grey: #828894;
+    --light-grey: #acaeb8;
+    --lightest-grey: #4a4c4e;
+    --border: #646769;
+}
+
+* {
+    background-color: var(--white);
+    font-family: 'Gafata', sans-serif;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    background-color: var(--grey);
+    line-height: 5rem;
+    height: 5rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: var(--grey);
+    color: var(--white);
+    margin-right: 5%;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+nav a:hover {
+    height: 100%;
+    color: var(--light-grey);
+}
+
+nav a:visited {
+    color: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    nav {
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    nav a {
+        font-size: 1rem;
+        border-top: 1px solid var(--white);
+        border-bottom: 1px solid var(--white);
+    }
+
+
+}
