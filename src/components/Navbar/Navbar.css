@@ -13,7 +13,7 @@
 
 nav {
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     background-color: var(--grey);
     line-height: 5rem;
     height: 5rem;
@@ -53,6 +53,4 @@ nav a:visited {
         border-top: 1px solid var(--white);
         border-bottom: 1px solid var(--white);
     }
-
-
 }
