@@ -1,17 +1,6 @@
-import Navbar from "./components/Navbar/Navbar";
-import MainContent from "./components/pages/Aboutme/Aboutme";
-import Work from "./components/pages/Work/Work";
-import ContactMe from "./components/pages/Contact/Contact"
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <div >
-      <Navbar/>
-      <MainContent/>
-      <Work/>
-      <ContactMe/>
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
