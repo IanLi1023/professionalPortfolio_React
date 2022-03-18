@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
-import MainContent from "./components/Header/Header";
-import Work from "./components/Work/Work"
-import Footer from "./components/Footer/Footer";
+import MainContent from "./components/pages/Aboutme/Aboutme";
+import Work from "./components/pages/Work/Work";
+import ContactMe from "./components/pages/Contact/Contact"
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar/>
       <MainContent/>
       <Work/>
-      <Footer/>
+      <ContactMe/>
     </div>
   );
 }

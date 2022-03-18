@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Footer/Footer.css';
+import './Contact.css';
 
-function Footer() {
+function ContactMe() {
     return (
         <footer>
         <h5 id="contact" className="sub-container">Contact Me and Let Us Work Together!</h5>
@@ -39,4 +39,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default ContactMe;

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Work/Work.css';
+import './Work.css';
 
 function Work() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Header/Header.css';
+import './Aboutme.css';
 
 function MainContent() {
     return (
@@ -35,6 +35,7 @@ function MainContent() {
             </p>
             
             <a href="public/assets/images/Resume 12.16.21.pdf" className="btn" target="_blank">Click Here For My Resume</a>
+
         </div>
     </main>
     );
