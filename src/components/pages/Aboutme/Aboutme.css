@@ -50,6 +50,9 @@ p {
     display: flex;
     border-radius: 100px;
     justify-content: center;
+    transform: rotate(270deg);
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 
 .exp-icons {

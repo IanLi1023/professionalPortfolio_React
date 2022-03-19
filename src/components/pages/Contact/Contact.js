@@ -22,14 +22,14 @@ function ContactMe() {
                 </article>
 
                 <article className="contact-div" id="linkedin">
-                    <a className="contact-icon" target="_blank" href="https://www.linkedin.com/in/ian-li1023/">
+                    <a className="contact-icon" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ian-li1023/">
                         <i className="fab fa-linkedin-in fa-2x"></i>
                         <p className="contact-text">LinkedIn</p>
                     </a>
                 </article>
 
                 <article className="contact-div" id="github">
-                    <a className="contact-icon" target="_blanks" href="https://github.com/IanLi1023">
+                    <a className="contact-icon" target="_blanks" rel="noreferrer" href="https://github.com/IanLi1023">
                         <i className="fab fa-github fa-2x"></i>
                         <p className="contact-text">GitHub</p>
                     </a>
