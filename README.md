@@ -13,7 +13,7 @@ This is my professional portfolio for the University of Denver bootcamp. I creat
 
 If you have any questions about the application, please contact me directly @ Ian.Li1023@gmail.com.
 
-** Deployed Link: https://ianli1023.github.io/professionalProfile-2/
+** Deployed Link: https://secret-plateau-76469.herokuapp.com/#IanLi
 
 You can also visit my pages below!!
 
