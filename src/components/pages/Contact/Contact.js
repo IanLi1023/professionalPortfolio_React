@@ -26,26 +26,26 @@ function ContactForm() {
 
     return (
         <div>
-            <div className="container">
+            <h5 id="contact" className="sub-container">Contact Me and Let Us Work Together!</h5>
+            <div id="form-group">
                 <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
-                        <div className="col-8 form-group mx-auto">
+                    <div id="name-control">
+                        <div>
                             <input type="text" className="form-control" placeholder="Name" name="name" />
                         </div>
-                        <div classdName="col-8 form-group pt-2 mx-auto">
+                        <div >
                             <input type="email" className="form-control" placeholder="Email Address" name="email" />
                         </div>
-                        <div classdName="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                        <div >
+                            <textarea id="textbox" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
-                        <div classdName="col-8 pt-3 mx-auto">
+                        <div id="btn">
                             <input type="submit" className="btn btn-info" value="Send" />
                         </div>
                     </div> 
                 </form>
             </div >
             <footer>
-                <h5 id="contact" className="sub-container">Contact Me and Let Us Work Together!</h5>
 
                 <div id="contact-section">
                     <article className="contact-div" id="email">

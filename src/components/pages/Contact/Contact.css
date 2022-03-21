@@ -30,6 +30,38 @@ footer {
     margin: 0 auto;
 }
 
+#form-group {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    height: 2rem;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+#textbox {
+    height: 8rem;
+    width: 100%;
+    font-size: 1.25rem;
+    
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}
+
 #contact-section {
     display: flex;
     text-align: center;
@@ -70,4 +102,9 @@ footer {
         text-align: center;
         font-size: 30px;
     }
+    
+   #btn {
+       display: flex;
+       justify-content: center;
+   }
 }
