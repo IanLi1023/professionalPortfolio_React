@@ -3,8 +3,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import './Contact.css';
 import emailjs from '@emailjs/browser';
+import './Contact.css';
 
 
 function ContactForm() {
@@ -20,8 +20,8 @@ function ContactForm() {
             }, (error) => {
                 console.log(error.text);
             });
-            e.target.reset()
-            alert("Your message has been successfully sent!")
+        e.target.reset()
+        alert("Your message has been successfully sent!")
     };
 
     return (
@@ -42,7 +42,7 @@ function ContactForm() {
                         <div id="btn">
                             <input type="submit" className="btn btn-info" value="Send" />
                         </div>
-                    </div> 
+                    </div>
                 </form>
             </div >
             <footer>
@@ -80,6 +80,9 @@ function ContactForm() {
                     </article>
                 </div>
             </footer>
+            <div className="resume-btn">
+                <a href="/images/Resume 12.16.21.pdf" rel="noreferrer" className="btn resume" target="_blank">Click Here For My Resume</a>
+            </div>
         </div >
 
 
