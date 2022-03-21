@@ -68,6 +68,34 @@ function Work() {
                         </div>
                     </a>
                 </div>
+                <div className="work-flexbox" id="flex-three">
+                    <a target="_blank" rel="noreferrer" className="all-tag" href="http://127.0.0.1:5500/index.html">
+                        <img className="small-image work-image" src="/images/passwordgen.jpg"
+                            alt="Password Generator Project Screenshot" />
+
+                        <div className="work-text" id="pw-text">
+                            <h3 className="work-title">Password Generator</h3>
+                            <h4 className="repo-link">
+                                <a target="_blank" rel="noreferrer" className="all-tag"
+                                    href="https://github.com/IanLi1023/Password-Generator">Code here</a>
+                            </h4>
+                        </div>
+                    </a>
+                </div>
+                <div className="work-flexbox" id="flex-three">
+                    <a target="_blank" rel="noreferrer" className="all-tag" href="https://ianli1023.github.io/Kobe-Bryant-Quiz-App/">
+                        <img className="small-image work-image" src="/images/kobequiz.jpg"
+                            alt="Kobe Quiz Project Screenshot" />
+
+                        <div className="work-text" id="kobe-text">
+                            <h3 className="work-title">Quiz Game</h3>
+                            <h4 className="repo-link">
+                                <a target="_blank" rel="noreferrer" className="all-tag"
+                                    href="https://github.com/IanLi1023/Kobe-Bryant-Quiz-App">Code here</a>
+                            </h4>
+                        </div>
+                    </a>
+                </div>
             </article>
         </div>
     );
