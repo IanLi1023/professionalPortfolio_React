@@ -89,7 +89,9 @@ h2 {
 
 #dinner-text,
 #weather-text,
-#note-text {
+#note-text,
+#pw-text,
+#kobe-text {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0 auto;
@@ -103,7 +105,9 @@ h2 {
 }
 
 #weather-text,
-#note-text {
+#note-text,
+#pw-text,
+#kobe-text {
     width: 480px;
 }
 
